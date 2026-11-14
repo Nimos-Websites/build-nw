@@ -1,0 +1,37 @@
+{
+	"/(app)": [
+		"src/routes/(app)/+page.server.ts",
+		"src/routes/(app)/+layout.server.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/(app)/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/": [
+		"src/routes/+layout.server.ts"
+	],
+	"/api/auth/[...all]": [
+		"src/routes/api/auth/[...all]/+server.ts"
+	],
+	"/api/builds": [
+		"src/routes/api/builds/+server.ts"
+	],
+	"/api/builds/[id]": [
+		"src/routes/api/builds/[id]/+server.ts"
+	],
+	"/api/build": [
+		"src/routes/api/build/+server.ts"
+	],
+	"/api/clients": [
+		"src/routes/api/clients/+server.ts"
+	],
+	"/api/engines": [
+		"src/routes/api/engines/+server.ts"
+	],
+	"/api/funnels": [
+		"src/routes/api/funnels/+server.ts"
+	],
+	"/login": [
+		"src/routes/login/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	]
+}
